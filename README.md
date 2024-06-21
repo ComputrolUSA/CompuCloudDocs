@@ -1,6 +1,8 @@
 # CompuCloud
 Computrol Cloud web api interface for monitoring of PLCs. This includes an interface to Amazon Alexa.
 
+In a nutshell, the Computrol Swiss Army Knife tag monitor (or even the Computrol Alarm Service Monitor) runs in the background out on the factory floor and sends changes to tag values up to "CompuCloud", an api that runs on the web. CompuCloud stores these PLC tag values in a database, and makes them available to applications such as Amazon Alexa, or web or mobile app applications we create.
+
 ## Alexa CompuCloud voice command
 ```
 "Alexa, ask computrol cloud to read tag a from plc tata tea"
